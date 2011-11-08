@@ -1,0 +1,79 @@
+body {
+    background: #fee4c9 url(../img/background.jpg) left top no-repeat;
+    background-size: 100%;
+    color: #2c2c2c;
+    font: normal 1em/150% Andada, Georgia, serif;
+    -webkit-text-size-adjust: none;
+}
+
+[role=main] {
+    background-color: rgba(255,255,255,0.95);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    margin: 2em auto;
+    padding: .5em 0 .1em;
+    width: 40em;
+}
+
+.ie .section {
+    background-color: #fff;
+    border: 3px solid #ddd;
+}
+
+i {
+    font-style: italic;
+}
+
+h1, h2 {
+    font: normal 2.5em/100% 'Leckerli One', Georgia, serif;
+    margin: 1em 0;
+    text-align: center;
+    text-shadow: 2px 2px 5px hsla(0, 0%, 0%, .2);
+}
+
+h2 {
+    font: normal 1.25em/150% 'Ubuntu Condensed', Tahoma, Arial, sans-serif;
+    margin: .8em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 1em;
+}
+
+.honeymoon-costs li {
+	background-color: rgba(0,0,0,.1);
+	border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	margin: 1em;
+	min-height: 200px;
+    overflow: hidden;
+    padding: 1em;
+    position: relative;
+}
+
+.honeymoon-costs h2 {
+    margin: 0 0 1em;
+	width: 68%;
+}
+
+.honeymoon-costs p {
+    float: left;
+    font-size: .875em;
+    margin: 0;
+	width: 68%;
+}
+
+.honeymoon-costs img {
+	border-color: #fff;
+	border-style: solid;
+	border-width: 5px 5px 20px 5px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    position: absolute;
+	top: 1.5em; right: 1.5em;
+	-webkit-transform: rotate(3deg);
+}
