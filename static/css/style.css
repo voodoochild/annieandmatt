@@ -44,13 +44,20 @@ p {
     margin: 1em;
 }
 
+.polaroid {
+    border-color: #fff;
+    border-style: solid;
+    border-width: 5px 5px 20px 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
 .honeymoon-costs li {
-	background-color: rgba(0,0,0,.1);
-	border-radius: 10px;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-	margin: 1em;
-	min-height: 200px;
+    margin: 1em;
+    min-height: 200px;
     overflow: hidden;
     padding: 1em;
     position: relative;
@@ -58,22 +65,19 @@ p {
 
 .honeymoon-costs h2 {
     margin: 0 0 1em;
-	width: 68%;
+    width: 68%;
 }
 
 .honeymoon-costs p {
     float: left;
     font-size: .875em;
     margin: 0;
-	width: 68%;
+    width: 65%;
 }
 
 .honeymoon-costs img {
-	border-color: #fff;
-	border-style: solid;
-	border-width: 5px 5px 20px 5px;
-	box-shadow: 5px 5px 10px rgba(0,0,0,.5);
     position: absolute;
-	top: 1.5em; right: 1.5em;
-	-webkit-transform: rotate(3deg);
+    top: 1.5em; right: 1.5em;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
 }
