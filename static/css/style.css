@@ -2,7 +2,7 @@ body {
     background: #fee4c9 url(../img/background.jpg) left top no-repeat;
     background-size: 100%;
     color: #2c2c2c;
-    font: normal 1em/150% Andada, Georgia, serif;
+    font: normal 16px/150% Andada, Georgia, serif;
     -webkit-text-size-adjust: none;
 }
 
@@ -15,6 +15,7 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,.5);
     margin: 2em auto;
     padding: .5em 0 .1em;
+    position: relative;
     width: 40em;
 }
 
@@ -28,14 +29,21 @@ i {
 }
 
 h1, h2 {
-    font: normal 2.5em/100% 'Leckerli One', Georgia, serif;
+    font: normal 40px/100% 'Leckerli One', Georgia, serif;
     margin: 1em 0;
     text-align: center;
     text-shadow: 2px 2px 5px hsla(0, 0%, 0%, .2);
 }
 
+h1 {
+    line-height: 1.5;
+    margin-bottom: 8%;
+    margin-right: 45%;
+    text-align: right;
+}
+
 h2 {
-    font: normal 1.25em/150% 'Ubuntu Condensed', Tahoma, Arial, sans-serif;
+    font: normal 20px/150% 'Ubuntu Condensed', Tahoma, Arial, sans-serif;
     margin: .8em;
     text-align: left;
     text-transform: uppercase;
@@ -45,11 +53,23 @@ p {
     margin: 1em;
 }
 
-.polaroid {
+p.smalltalk {
+    font-size: 14px;
+}
+
+img.polaroid {
     border-color: #fff;
     border-style: solid;
-    border-width: 5px 5px 20px 5px;
+    border-width: 5px 5px 30px 5px;
     box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
+img.annie-and-matt {
+    border-bottom-width: 5px;
+    position: absolute;
+    right: 15%; top: 2em;
+    -moz-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
 }
 
 .honeymoon-costs li {
@@ -71,14 +91,40 @@ p {
 
 .honeymoon-costs p {
     float: left;
-    font-size: .875em;
-    margin: 0;
+    font-size: 14px;
+    margin: 0 0 1em 0;
     width: 65%;
 }
 
 .honeymoon-costs img {
     position: absolute;
     top: 1.5em; right: 1.5em;
-    -webkit-transform: rotate(3deg);
     -moz-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+}
+
+.honeymoon-costs li:nth-child(even) img {
+    -moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+}
+
+.honeymoon-costs form {
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    clear: both;
+    font: normal 16px/100% 'Ubuntu Condensed', Tahoma, Arial, sans-serif;
+    padding: .5em;
+    width: 46%;
+}
+
+.honeymoon-costs form select {
+    margin: .5em 0 1em 0;
+}
+
+.honeymoon-costs form input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: .5em 0 1em 0;
+    padding: .5em;
+    width: 250px;
 }
